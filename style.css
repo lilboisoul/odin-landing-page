@@ -1,7 +1,6 @@
 section {
     width: auto;
     height: 200px;
-    text-align: center;
 }
 
 .header{
@@ -18,35 +17,54 @@ section {
     display: flex;
     font-size:18px;
     color: #E5E7Eb;
-    width: 500px;
+    width: 1000px;
     justify-content:flex-start;
 }
 .header-content {
     display: flex;
+    width: 1000px;
 }
 .logo {
     font-size:24px;
     color: #f9faf8;
 }
 .image {
+    margin-left: auto;
     font-size: 18px;
 }
 
-
-
-
-
-.information{
+.information-and-pictures{
     background-color: white;
     font-size: 36px;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.information {
+    
+}
+.pictures{
+    display: flex;
+    gap: 70px;
+}
+.image-box{
+    border: 2px solid rgb(41, 112, 218);
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
 }
 .quote{
     background-color: #E5E7Eb;;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+    text-align: center;
 
 }
 .sign-up{
