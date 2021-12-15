@@ -50,8 +50,7 @@ section {
     gap: 70px;
 }
 .image-box{
-    border: 2px solid rgb(41, 112, 218);
-    background-color: lightgray;
+    border: 4px solid rgb(41, 112, 218);
     width: 150px;
     height: 150px;
     border-radius: 10px;
