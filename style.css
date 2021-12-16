@@ -13,6 +13,7 @@ section {
     justify-content: stretch;
 }
 .header{
+    gap: 20px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -23,25 +24,52 @@ section {
     font-weight: bold;
 }
 .nav-bar {
+    margin-top: 20px;
     display: flex;
     font-size:18px;
     color: #E5E7Eb;
     width: 1000px;
     justify-content:flex-start;
 }
+.nav-bar-text{
+    font-size: 14px;
+}
 .header-content {
     display: flex;
     width: 1000px;
+    height: 325px;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
     font-size:24px;
     color: #f9faf8;
 }
-.image {
-    margin-left: auto;
+.image-header {
+    display: flex;
+    width: 475px;
+    height: 200px;
     font-size: 18px;
+    background-color: lightgray;
+    color: black;
+    justify-content: center;
+    align-items: center;
 }
-
+.text-subtext-button{
+    width: 475px;
+    height: 200px;
+}
+.sign-up-button-blue-border
+{
+    border-radius: 10px;
+    border: 1px solid #3882F6;
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 16px;
+    height: 35px;
+    width: 120px;
+}
 .information-and-pictures{
     height: 350px;
     background-color: white;
@@ -53,7 +81,8 @@ section {
     justify-content: center;
 }
 .information {
-    
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 .pictures{
     display: flex;
@@ -65,8 +94,9 @@ section {
     height: 150px;
     border-radius: 10px;
 }
-.subtext-box{
-    width: 150px;
+.subtext-box, .header-subtext{
+    margin-top: 10px;
+    width: 160px;
     height: 50px;
 }
 .image-subtext{
@@ -138,7 +168,7 @@ section {
     background-color: #3882F6;
     font-weight: bold;
     height: 35px;
-    width: 100px
+    width: 100px;
 }
 .footer{
     height: 100px;
