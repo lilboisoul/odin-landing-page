@@ -1,11 +1,14 @@
 section {
-    width: auto;
+    width: 100%;
     height: 200px;
     font-family: 'Roboto', sans-serif;
 }
+button{
+    cursor: pointer;
+}
 .nav-bar {
     position: fixed;
-    left: 0px;
+    
     top: 0px;
     height: auto;
     width: 100%;
